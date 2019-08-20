@@ -101,7 +101,10 @@ class TutorialHome extends StatelessWidget{
       ),
       //body占屏幕的大部分
       body: new Center(
-        child: new Text('Hello , world!'),
+        child: new Text(
+            'Hello , world!',
+            style: TextStyle(fontWeight: FontWeight.bold),
+        ),
       ),
       floatingActionButton: new FloatingActionButton(
         tooltip: 'Add',
